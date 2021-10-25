@@ -1,4 +1,2 @@
-# HomePage-BootStrap-Exp-3---SHUBHAM-MORE
+# HomePage-BootStrap-Exp-3--Sameer Metkar-31
 Design a home page  using bootstrap --  Exp 3
-
-Website link: https://homepage-bootstrap-shubham-more.netlify.app/
