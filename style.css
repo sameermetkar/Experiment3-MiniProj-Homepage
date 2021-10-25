@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.jumbotron{
+    background: url(https://www.esri.com/about/newsroom/wp-content/uploads/2020/05/books-wide2.jpg);
+    background-size: cover;
+    border-radius: 0;
+}
+
+.jumbotron h1{
+    color: white;
+}
+
+.jumbotron p{
+    color: white;
+}
+
+.card{
+    margin: 0 auto;
+}
+
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.card-area h1{
+   text-align: center;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+
+.card-header{
+    place-self:center ;
+    background-color: white;
+    border: none;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.top-selling{
+    margin: 50px 0;
+    text-align: center; 
+    background-color: rgba(134, 168, 168, 0.514);
+    
+}
+
+.top-selling  h1{
+    padding-top: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.col-sm-3{
+    margin: 10px auto;
+}
+
+.col-sm-3 .card{
+    margin: 25px 0;
+    width: 350px;
+    height: 300px;
+    
+}
+
+
+.forms h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+form{
+    padding: 50px;
+}
+
+.blogs{
+    background-color: rgba(134, 168, 168, 0.514);
+    padding: 25px;
+   
+}
+.blogs h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-group .card img{
+    width: 100%;
+    height: 300px;
+}
+
+.card-group .card{
+    margin: 0 20px;
+}
+
+.page-footer{
+    background-color: rgba(37, 3, 68, 0.925);
+    color: white;
+}
+
+.page-footer .footer-brand {
+   font-family: 'Pacifico', cursive;
+}
+
+.list-unstyled a{
+    color: #fff;
+    font-size: 20px;
+    
+}
+

@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Other links -->
+    <link rel="stylesheet" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <title>HomePage-Using Bootstrap</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Bookify</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Books</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#blog">Blogs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contactus">ContactUs</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+      
+    <div class="jumbotron">
+        <h1 class="display-4">Today's Deals</h1>
+        <p class="lead">Your One Stop Shop for Engineering Books<br>Find all Books at one place and at reasonable price</p>
+        <hr class="my-4">
+        <p>Your Just one Click away ! Check out our current Top selling books</p>
+        <p class="lead">
+          <a class="btn btn-success btn-lg" href="#" role="button">Learn more</a>
+        </p>
+    </div>
+    
+    <section class="card-area" id="features">
+      <h1>Features</h1>    
+          <div class="card-body">
+            <div class="card border-dark mb-3" style="max-width: 18rem;">
+              <div class="card-header"><i class="fa fa-money fa-2x"></i></div>
+              <div class="card-body text-dark">
+                <h5 class="card-title">CONVENIENT ORDERING</h5>
+                <p class="card-text">Easy Ordering and Easy Payment Options like UPI and COD</p>
+              </div>
+            </div>
+
+            <div class="card border-dark mb-3" style="max-width: 18rem;">
+              <div class="card-header"><i class="fa fa-book fa-2x"></i></div>
+              <div class="card-body text-dark">
+                <h5 class="card-title">PREMIUM QUALITY BOOKS</h5>
+                <p class="card-text">Our Books are all Original, pubished by original publishing agencies for good feel while learning</p>
+              </div>
+            </div>
+
+            <div class="card border-dark mb-3" style="max-width: 18rem;">
+              <div class="card-header"><i class="fa fa-truck fa-2x"></i></div>
+              <div class="card-body text-dark">
+                <h5 class="card-title">FAST DELIVERY</h5>
+                <p class="card-text">We deliver books to you on time, so preparations never gets delayed</p>
+              </div>
+            </div>
+          </div>
+    </section>  
+
+    <section class="top-selling">
+      <h1>Checkout Our Top Selling Books</h1>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Engg Maths-1</h5>
+                <p class="card-text">Great Deals on Kumbhojkar Engineering Mathematics-1 : <br>&#8227; No Delivery Charges applied. <br>&#8227; 20%off on HDFC Bank Cards. <br>&#8227; and many more Click on the Below Button to Know More</p>
+                <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Data Structures and Algorithms using C</h5>
+              <p class="card-text">Great Deals on Rema Theraja DSA using C : <br>&#8227; No Delivery Charges applied. <br>&#8227; Buy by Tommorrow and get lightning fast deal of upto 40%off <br>&#8227; and many more Click on the Below Button to Know More</p>
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Engg Mechanics</h5>
+              <p class="card-text">Great Deals on M.D. Dayal Engineering Mechanics : <br>&#8227; No Delivery Charges applied. <br>&#8227; 20%off on HDFC Bank Cards. <br>&#8227; and many more Click on the Below Button to Know More</p>
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="forms" id="contactus">
+        <h1>ContactUs</h1>
+        <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Select your Designation</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Select</option>
+                <option>Teacher</option>
+                <option>Student</option>
+                <option>Developer</option>
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">First Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="firstname">
+                <label for="exampleFormControlInput1">Last Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="surname">
+
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Leave a Message / Any Queries/ Review</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </form>
+    </section>
+    
+    <section class="blogs" id="blog">
+        <h1>Blogs</h1>
+        <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5aXqGvtsvqW0ALswt2BKktkQXmQX3E6cH-A&usqp=CAU" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Technology Blog</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....</p>
+                <button type="button" class="btn btn-primary">Read More</button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR04Kke6VDiNzoHjydAd7bLHqLA5Y8zen3FIA&usqp=CAU" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Economics Blog</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....</p>
+                <button type="button" class="btn btn-primary">Read More</button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlAuG9CjkbKbL0j8Z_A6lpFBVaaKXP66yy6Q&usqp=CAU" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Educational Blog</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....</p>
+                <button type="button" class="btn btn-primary">Read More</button>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+    <!-- Footer -->
+<footer class="page-footer font-small stylish-color-dark pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+  
+          <!-- Content -->
+          <h5 class="footer-brand font-weight-bold text-uppercase mt-3 mb-4">Bookify</h5>
+          <p>Here You Can Find Engineering Books of all kinds ,no need to go and search in shop and to wait till its available here we provide you all at a single click!</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Useful-Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#">Coupons</a>
+            </li>
+            <li>
+              <a href="#">Blog post</a>
+            </li>
+            <li>
+              <a href="#">Return Policy</a>
+            </li>
+            <li>
+              <a href="#">Become a Partner</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Follow us</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter-square fa-2x	"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-pinterest-square fa-2x	"></i></a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <hr>
+  
+    <!-- Call to action -->
+    <ul class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item">
+        <h5 class="mb-1">Register for free</h5>
+      </li>
+      <li class="list-inline-item">
+        <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+      </li>
+    </ul>
+    <!-- Call to action -->
+  
+    <hr>
+
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+      <a href="https://www.bookify-dummy.com/">Bookify.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+    
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
